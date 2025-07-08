@@ -295,7 +295,7 @@ export default function ReservasPage() {
               </div>
 
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                {horasDelDia.map((hora) => (
+                {horasDelDia.map((hora: string) => (
                   <button
                     key={hora}
                     onClick={() => seleccionarHora(hora)}
